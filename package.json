@@ -1,0 +1,20 @@
+{
+  "author": "EveTeam",
+  "description": "Eve Mock Server",
+  "devDependencies": {
+    "express": "^4.16.2"
+  },
+  "license": "GPL-2.0",
+  "main": "server.js",
+  "name": "@rhoda/mockserver",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:gcca/-eve-mockserver.git",
+  "scripts": {
+    "start": "node server.js",
+    "test": "exit 0"
+  },
+  "version": "1.0.0"
+}
